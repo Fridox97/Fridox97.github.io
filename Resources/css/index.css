@@ -9,16 +9,20 @@ a{
 }
 
 body{
-    margin: 0;
+    margin: 4rem 0;
 }
 
 header{
+    position: fixed;
+    width: 100%;
+    top: 0;
     height: 4rem;
-    margin: 0 1.5rem;
+    padding: 0 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: white;
+    z-index: 1;
 }
 
 header .logo{
@@ -41,7 +45,7 @@ nav{
     padding: 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 nav h3{
@@ -56,16 +60,16 @@ nav h3{
 
 #section1 img{
     margin: 2rem 1.5rem;
-    width: 60%;
+    max-width: 60%;
 }
 
 #section1 div{
     margin-right: 4.5rem;
-    width: 40%;
+    max-width: 40%;
 }
 
 #section1 div h1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 #section1 div h2{
@@ -154,4 +158,52 @@ nav h3{
     height: auto;
     max-width: 35%;
     margin: 1rem;   
+}
+
+#section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#section3 .titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+#section3 .recuadros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 4.5rem;
+}
+
+#section3 .recuadros figure{
+    margin: 2rem 0;
+    max-width: 30%;
+    background-color: whitesmoke;
+}
+
+#section3 .recuadros figure img{
+    max-width: 100%;
+    height: auto;
+}
+
+#section3 .recuadros figure .descripcion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+#section3 .recuadros figure .descripcion h1{
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+#section3 .recuadros figure .descripcion p{
+    color: darkgray;
 }
