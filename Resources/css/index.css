@@ -207,3 +207,72 @@ nav h3{
 #section3 .recuadros figure .descripcion p{
     color: darkgray;
 }
+
+#section4{
+    display: flex;
+    flex-direction: column;
+}
+
+#section4 .titulo{
+    margin: 2rem 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#section4 .titulo h1{
+    margin: 0;
+}
+
+#section4 .media{
+    display: flex;
+}
+
+#section4 .media .big{
+    margin: 0 1.5rem;
+    margin-top: 1rem;
+    width: 60%;
+}
+
+#section4 .media .big .content h2{
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+#section4 .media .big .content p{
+    font-size: 1.5rem;
+    color: dimgray;
+}
+
+#section4 .media .small{
+    width: 40%;
+}
+
+#section4 .media .small .recuadro{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    transition: background-color 0.5s linear 0.1s;
+}
+
+#section4 .media .small .recuadro:hover{
+    background-color: lightgray;
+}
+
+#section4 .media .small .recuadro .content h1{
+    font-size: 2rem;
+}
+
+#section4 .media .small .recuadro .content p{
+    font-size: 1.4rem;
+}
+
+#section4 .media .small .recuadro img {
+    margin: 1rem;
+}
+
+video{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
